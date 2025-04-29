@@ -1,0 +1,113 @@
+div {
+    text-align: center;
+
+}
+
+.titulo {
+    display: flex;
+    background-color: rgb(54, 199, 243);
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 24, 88);
+    transition: 300ms;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+body {
+    margin: 0%;
+    background: url(..//img/airport-airplane-on-runway-vector-600nw-2521665201.webp) no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    bottom: 8vh;
+
+}
+
+main {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.main1 {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.footer {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    background-color: rgb(19, 18, 75);
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    
+}
+
+h2 {
+
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgb(19, 18, 75)
+}
+
+.cabeca {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0px auto; /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+.cabeca ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgb(19, 18, 75);
+    margin-right: 35%;
+    margin-left: 35%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..//css/contatos.css">
+</head>
+<body>
+    <header class="titulo">
+        <nav class="menu">
+        <a class="Nos" href="sobre.html">Sobre Nós</a> <a href="novidades.html">Novidades</a> <a href="inicio.html">AeroPorto</a> <a href="contatos.html">Contatos</a> <a href="../php/voos.php">Voos</a>
+        </nav>
+    </header>
+    <form method="post" autocomplete="off" id="meuForm">
+        <div class="grupo">
+        <label for="nome">Nome:</label>
+        <input type="text" id="i_nome" name="nome" required>
+        <p>
+            <label for="Email">Email:</label>
+            <input type="text" id="i_email" name="Email" required>
+        </p>
+        <p>
+            <textarea name="mmess" id="i_mess" placeholder="escreva sua mensagem para nós aqui ou contate 'voebrasil2025@gmail.com'."></textarea>
+        </p>
+        <p>
+            <input type="submit" onclick="clicou(event)" value="ENVIAR">
+            <input type="reset" value="CANCELAR">
+         </p>
+    </div>
+    </form>
+
+
+    <footer>
+        <div class="footer">
+            <p>Este é um projeto universitário! Não somos uma empresa real.</p>
+        </div>
+    </footer>
+
+    <script src="..//js/modif.js"></script>
+</body>
+</html>

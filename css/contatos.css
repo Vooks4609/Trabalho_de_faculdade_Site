@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    background: url(..//img/airport-airplane-on-runway-vector-600nw-2521665201.webp) no-repeat;
+    background-size: cover;
+    justify-content: center ;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    bottom: 8vh;
+
+}
+.titulo{
+    display: flex;
+    background-color: rgb(54, 199, 243);    
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 24, 88);
+    transition: 300ms;
+    font-family: monospace;
+    font-weight: bold;
+}
+.Nos{
+    word-spacing: normal;
+}
+a:hover{
+    opacity: 0.7;
+    color: rgb(196, 248, 255);
+}
+button{
+    width: 300px;
+    height: 70px;
+    border: none;
+    background-color: rgb(48, 106, 233);
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px rgb(102, 102, 102);
+    color: white;
+    margin-left: 550px;
+    margin-top: 50px;
+    transition: 400ms;
+    transition: 300ms;
+    flex-direction: column;
+}
+button:hover{
+    background-color: rgb(32, 32, 68);
+    transform: scale(1.1);
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
+#i_mess{
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    border-style: none;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoho {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;  /* Oculto por padrão */
+    white-space: nowrap;
+  }
+  .tell:hover .textoho {
+    display: block;
+  }
+  .conte{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    height: 8vh;
+    width: 100%;
+    background: rgb(19, 18, 75);
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.cabeca {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0px auto; /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+.cabeca ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgb(19, 18, 75);
+    margin-right: 35%;
+    margin-left: 35%;
+}
