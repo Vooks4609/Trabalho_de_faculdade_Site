@@ -22,7 +22,7 @@
     </center>
 <header class="titulo">
         <nav class="menu">
-        <a onclick="clicou()" class="Nos" href="sobre.html">Sobre Nós</a> <a href="novidades_1.html">Novidades</a> <a href="inicio.html">AeroPorto</a> <a href="contatos.html">Contatos</a> <a href="voos.html">Voos</a>
+        <a onclick="clicou()" class="Nos" href="sobre.html">Sobre Nós</a> <a href="novidades_1.html">Novidades</a> <a href="inicio.html">AeroPorto</a> <a href="contatos.html">Contatos</a> <a href="voos.php">Voos</a>
         </nav>
     </header>
 
