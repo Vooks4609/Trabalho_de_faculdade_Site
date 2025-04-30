@@ -50,15 +50,15 @@ button{
     font-size: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: 6px;
     box-shadow: 4px 4px 10px rgb(102, 102, 102);
     color: white;
     margin-left: 550px;
     margin-top: 50px;
-    transition: 400ms;
     transition: 300ms;
     flex-direction: column;
+    position: relative;
 }
 button:hover{
     background-color: rgb(32, 32, 68);
@@ -83,22 +83,7 @@ form{
     align-items: center;
     justify-content: center;
 }
-
-.textoho {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: none;  /* Oculto por padrão */
-    white-space: nowrap;
-  }
-  .tell:hover .textoho {
-    display: block;
-  }
+  
   .conte{
     text-transform: uppercase;
     color: rgb(255, 255, 255);
@@ -109,7 +94,7 @@ footer{
     width: 100%;
     background: rgb(19, 18, 75);
     position: absolute;
-    bottom: 0;
+    bottom: -20vh;
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -138,4 +123,25 @@ h1 {
     box-shadow: 0 4px 8px rgb(19, 18, 75);
     margin-right: 35%;
     margin-left: 35%;
+}
+button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+/* Mostra só um por vez */
+.textoho {
+    display: none;
+}
+
+button:hover .texto-default {
+    display: none;
+}
+
+button:hover .textoho {
+    display: block;
 }
