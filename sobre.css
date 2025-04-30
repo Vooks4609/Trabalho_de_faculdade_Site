@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background: url(airport-airplane-on-runway-vector-600nw-2521665201.webp) no-repeat;
+    background: url(..//img/airport-airplane-on-runway-vector-600nw-2521665201.webp) no-repeat;
     background-size: cover;
     justify-content: center ;
     align-items: center;
@@ -12,28 +12,28 @@ body{
 footer{
     width: 100%;
     background: rgb(19, 18, 75);
-    color: aliceblue; /*para garantir que o texto fique visível*/
-    position: relative; /*ou remova completamente*/
-    padding: 20px 0; /*espaço interno para "respirar"*/
-    text-align: center; /*centralizar o texto*/ 
+    color: aliceblue; /para garantir que o texto fique visível/
+    position: relative; /ou remova completamente/
+    padding: 20px 0; /espaço interno para "respirar"/
+    text-align: center; /centralizar o texto/ 
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgb(22, 24, 25)
 }
 
 .container{
     display: flex;
-    gap: 50px; /*espaçamento entre dois lados*/
+    gap: 50px; /espaçamento entre dois lados/
     max-width: 1200px;
-    margin: 40px auto; /*centraliza*/
+    margin: 40px auto; /centraliza/
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;/*espaço entre o conteúdo e o footer*/
+    margin-bottom: 20px;/espaço entre o conteúdo e o footer/
 
 }
 .lado-esquerdo,
 .meio,
 .lado-direito {
-    width: 1200%; /*mesma largura para os dois lados*/
+    width: 1200%; /mesma largura para os dois lados/
     font-size: 18px;
     padding: 10px;
     background-color: aliceblue;
@@ -76,6 +76,7 @@ p{
     font-size: 24px;
     letter-spacing: 4px;
     text-transform: uppercase;
+    
 }
 
 a{
@@ -93,3 +94,19 @@ a:hover{
     color: rgb(196, 248, 255);
 }
 
+.cabeca ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(19, 18, 75);
+    margin-right: 35%;
+    margin-left: 35%;
+    
+}
